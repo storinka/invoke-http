@@ -2,16 +2,17 @@
 
 namespace Invoke\Http\Data;
 
+use Invoke\Attributes\Parameter;
 use Invoke\Data;
-use Invoke\Support\WithReadonlyParams;
 
 class FailedResponseData extends Data
 {
-    use WithReadonlyParams;
+    #[Parameter]
+    public int $code;
 
-    public readonly int $code;
+    #[Parameter]
+    public string $error;
 
-    public readonly string $error;
-
-    public readonly string $message;
+    #[Parameter]
+    public string $message;
 }
