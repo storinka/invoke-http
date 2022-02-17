@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5d2601224ba6149659c1fcf6d836435e",
+    "content-hash": "0a0d69379595ec2447d4f19bc2812606",
     "packages": [
         {
             "name": "laminas/laminas-httphandlerrunner",
@@ -554,12 +554,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/storinka/invoke.git",
-                "reference": "f0f40e2ae7be8eebd1d06eb6982cb012e3622b7f"
+                "reference": "59460c9ba40b6d743d072aea3020da4755eb76ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/storinka/invoke/zipball/f0f40e2ae7be8eebd1d06eb6982cb012e3622b7f",
-                "reference": "f0f40e2ae7be8eebd1d06eb6982cb012e3622b7f",
+                "url": "https://api.github.com/repos/storinka/invoke/zipball/59460c9ba40b6d743d072aea3020da4755eb76ff",
+                "reference": "59460c9ba40b6d743d072aea3020da4755eb76ff",
                 "shasum": ""
             },
             "require": {
@@ -597,7 +597,7 @@
                 "issues": "https://github.com/storinka/invoke/issues",
                 "source": "https://github.com/storinka/invoke/tree/v2"
             },
-            "time": "2022-02-17T18:16:32+00:00"
+            "time": "2022-02-17T19:27:26+00:00"
         }
     ],
     "packages-dev": [],
@@ -609,7 +609,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.1"
+        "php": "^8.1",
+        "ext-mbstring": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "2.2.0"

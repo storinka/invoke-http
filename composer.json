@@ -15,7 +15,8 @@
         "storinka/invoke": "^2.0",
         "nyholm/psr7": "^1.5",
         "laminas/laminas-httphandlerrunner": "2.2.x-dev",
-        "nyholm/psr7-server": "^1.0"
+        "nyholm/psr7-server": "^1.0",
+        "ext-mbstring": "*"
     },
     "autoload": {
         "psr-4": {
